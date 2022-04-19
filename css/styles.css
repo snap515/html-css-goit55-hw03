@@ -126,14 +126,6 @@ p{
     background-color: var(--main-background);
 }
 
-.section.features {
-    padding-bottom: 0px;
-}
-
-.features-list {
-    list-style: none;
-}
-
 .features-title {
     color: var(--title-color);
 
@@ -151,6 +143,11 @@ p{
 }
 
 /*Activity*/
+
+.section.activity {
+    padding-top: 0px;
+}
+
 .activity-title {
     color: var(--title-color);
 
