@@ -20,20 +20,24 @@
   <body>
     <header class="header">
       <div class="container">
-        <nav>
+        <nav class="header-nav">
           <a href="./index.html" class="logo-link"><span class="logo-accent">Web</span>Studio</a>
-          <ul class="nav">
-            <li><a href="./index.html" class="nav-link current-link">Студия</a></li>
-            <li><a href="./portfolio.html" class="nav-link">Портфолио</a></li>
-            <li><a href="" class="nav-link">Контакты</a></li>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="./index.html" class="nav-link current-link">Студия</a>
+            </li>
+            <li class="nav-item"><a href="./portfolio.html" class="nav-link">Портфолио</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Контакты</a></li>
+          </ul>
+          <ul class="contacts-list">
+            <li class="contacts-item">
+              <a href="mailto:info@devstudio.com" class="header-contacts">info@devstudio.com</a>
+            </li>
+            <li class="contact-item">
+              <a href="tel:+380961111111" class="header-contacts">+38 096 111 11 11</a>
+            </li>
           </ul>
         </nav>
-        <ul>
-          <li>
-            <a href="mailto:info@devstudio.com" class="header-contacts">info@devstudio.com</a>
-          </li>
-          <li><a href="tel:+380961111111" class="header-contacts">+38 096 111 11 11</a></li>
-        </ul>
       </div>
     </header>
     <main>
@@ -47,28 +51,30 @@
       <!------------------ Наши преимущества ---------------------------------->
       <section class="section">
         <div class="container">
-          <ul>
-            <li>
+          <ul class="features-list">
+            <li class="features-item">
               <h3 class="features-title">Внимание к деталям</h3>
               <p class="features-text">
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
             </li>
-            <li>
+            <li class="features-item">
               <h3 class="features-title">Пунктуальность</h3>
-              <p>
+              <p class="features-text">
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
-            <li>
+            <li class="features-item">
               <h3 class="features-title">Планирование</h3>
-              <p>
+              <p class="features-text">
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
-            <li>
+            <li class="features-item">
               <h3 class="features-title">Современные технологии</h3>
-              <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+              <p class="features-text">
+                Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+              </p>
             </li>
           </ul>
         </div>
@@ -78,10 +84,10 @@
         <div class="container">
           <h2 class="activity-title">Чем мы занимаемся</h2>
           <ul class="activity-list">
-            <li>
+            <li class="activity-item">
               <img src="./images/img.jpg" alt="работа по блок схемам" width="370" height="294" />
             </li>
-            <li>
+            <li class="activity-item">
               <img
                 src="./images/img1.jpg"
                 alt="разработка мобильного по"
@@ -89,7 +95,7 @@
                 height="294"
               />
             </li>
-            <li>
+            <li class="activity-item">
               <img
                 src="./images/img2.jpg"
                 alt="разработка дизайна проектов"
@@ -105,37 +111,46 @@
         <div class="container">
           <h2 class="team-title">Наша команда</h2>
           <ul class="team-list">
-            <li>
+            <li class="team-item">
               <img
                 src="./images/igor.jpg"
                 alt="сотрудник игорь демьяненко"
                 width="270"
                 height="260"
+                class="teammate-photo"
               />
               <h3 class="teammate-name">Игорь Демьяненко</h3>
               <p class="teammate-post">Product Designer</p>
             </li>
-            <li>
-              <img src="./images/olga.jpg" alt="сотрудник ольга репина" width="270" height="260" />
+            <li class="team-item">
+              <img
+                src="./images/olga.jpg"
+                alt="сотрудник ольга репина"
+                width="270"
+                height="260"
+                class="teammate-photo"
+              />
               <h3 class="teammate-name">Ольга Репина</h3>
               <p class="teammate-post">Frontend Developer</p>
             </li>
-            <li>
+            <li class="team-item">
               <img
                 src="./images/nikola.jpg"
                 alt="сотрудник николай тарасов"
                 width="270"
                 height="260"
+                class="teammate-photo"
               />
               <h3 class="teammate-name">Николай Тарасов</h3>
               <p class="teammate-post">Marketing</p>
             </li>
-            <li>
+            <li class="team-item">
               <img
                 src="./images/mihail.jpg"
                 alt="сотрудник михаил ермаков"
                 width="270"
                 height="260"
+                class="teammate-photo"
               />
               <h3 class="teammate-name">Михаил Ермаков</h3>
               <p class="teammate-post">UI Designer</p>
@@ -149,7 +164,7 @@
         <a href="/" class="footer-logo"><span class="logo-accent">Web</span>Studio</a>
         <address class="address">
           г. Киев, пр-т Леси Украинки, 26 <br />
-          <a href="mailto:info@example.com" class="footer-contacts">info@example.com</a> <br />
+          <a href="mailto:info@example.com" class="footer-contacts">info@example.com</a>
           <a href="tel:+380991111111" class="footer-contacts">+38 099 111 11 11</a>
         </address>
       </div>
