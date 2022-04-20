@@ -217,7 +217,6 @@ p{
 }
 
 .activity-item {
-    height: 294px;
     width: calc((100% - 60px) /3);
 }
 
